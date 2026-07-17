@@ -59,3 +59,29 @@ button:hover {
   font-weight: bold;
   color: #764ba2;
 }
+
+body.dark {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+}
+
+body.dark .container {
+  background: #2d2d44;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+body.dark h1 {
+  color: #e0e0e0;
+}
+
+body.dark p {
+  color: #b0b0b0;
+}
+
+#btnDarkMode {
+  margin-top: 0.75rem;
+  background: #6b7280;
+}
+
+#btnDarkMode:hover {
+  background: #4b5563;
+}
