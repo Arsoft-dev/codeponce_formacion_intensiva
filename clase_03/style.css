@@ -85,3 +85,28 @@ body.dark p {
 #btnDarkMode:hover {
   background: #4b5563;
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 2rem 1.25rem;
+    width: 85%;
+  }
+
+  .tech-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+  }
+}
